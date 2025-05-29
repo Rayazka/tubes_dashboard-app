@@ -8,6 +8,7 @@ import jakarta.persistence.*;
 public class Client extends User {
 
     public Client() {
+        super();
     }
 
     public Client(String name, String email) {
